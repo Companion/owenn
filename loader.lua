@@ -10,8 +10,9 @@ ui.hide()
 
 local placeId = game.PlaceId
 local scripts = {
+	[111835260646713] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/generic-blood-ragdoll-fighting.lua",
 	[103854444055060] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/silent-assassins.lua",
-	default = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/silent-assassins.lua",
+	default = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/universal.lua",
 }
 
 local src = scripts[placeId] or scripts.default
