@@ -16,6 +16,7 @@ local byPlace = {
 }
 local byGameId = {
 	[9534705677] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/sniper-arena.lua",
+	[7200297228] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/loot-hero.lua",
 }
 local default = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/universal.lua"
 
