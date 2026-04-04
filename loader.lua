@@ -14,6 +14,7 @@ local byPlace = {
 	[111835260646713] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/generic-blood-ragdoll-fighting.lua",
 	[103854444055060] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/silent-assassins.lua",
 	[893973440] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/flee-the-facility.lua",
+	[7871169780] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/bLockerman's-Minesweeper.lua",
 }
 local byGameId = {
 	[9534705677] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/sniper-arena.lua",
