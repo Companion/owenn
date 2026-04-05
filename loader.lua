@@ -15,11 +15,11 @@ local byPlace = {
 	[103854444055060] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/silent-assassins.lua",
 	[893973440] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/flee-the-facility.lua",
 	[7871169780] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/bLockerman's-Minesweeper.lua",
-	[5244411056] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/bloxy-bingo.lua",
 }
 local byGameId = {
 	[9534705677] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/sniper-arena.lua",
 	[7200297228] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/loot-hero.lua",
+	[1836146838 ] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/bloxy-bingo.lua",
 }
 local default = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/universal.lua"
 
