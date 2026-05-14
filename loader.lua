@@ -2,8 +2,8 @@
 local owenn = loadstring(game:HttpGet("https://raw.githubusercontent.com/Companion/owenn/refs/heads/main/owennui.lua"))()
 
 local ui = owenn:window("Loader", 380, 220, {
-	keys = { "owenn.wtf" },
-	discord = "https://discord.gg/brq2hJtwEU",
+	keys = { "owennwtf" },
+	discord = "https://discord.gg/h9RjQVZxJx",
 	skipLoader = true,
 })
 ui.hide()
