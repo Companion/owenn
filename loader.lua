@@ -42,7 +42,7 @@ end
 local body, err = fetch(BASE .. file)
 
 if not body and not isDefault then
-	warn(("[loader] %s missing (%s) — falling back to %s"):format(file, err, DEFAULT))
+	warn(("[loader] %s missing (%s) falling back to %s"):format(file, err, DEFAULT))
 	ui.toast(("%s not found, loading universal"):format(file), 3, "bottom", "warning")
 	body, err = fetch(BASE .. DEFAULT)
 end
