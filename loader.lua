@@ -16,6 +16,7 @@ local byPlace = {
 	[893973440] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/flee-the-facility.lua",
 	[7871169780] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/bLockerman's-Minesweeper.lua",
 	[5244411056] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/bloxy-bingo.lua",
+	[107095834793267] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/oil-empire.lua",
 }
 local byGameId = {
 	[9534705677] = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/sniper-arena.lua",
