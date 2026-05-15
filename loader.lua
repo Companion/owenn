@@ -16,6 +16,7 @@ local registry = {
 		[893973440]        = "flee-the-facility.lua",
 		[7871169780]       = "bLockerman's-Minesweeper.lua",
 		[5244411056]       = "bloxy-bingo.lua",
+		[108843562394237]  = "monkey-tag.lua",
 	},
 	game = {
 		[9534705677] = "sniper-arena.lua",
