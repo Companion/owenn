@@ -18,6 +18,7 @@ local registry = {
 		[5244411056]       = "bloxy-bingo.lua",
 		[108843562394237]  = "monkey-tag.lua",
 		[101272402522756]  = "bbq-battles.lua",
+		[109509628648368]  = "merge-vs-mobs.lua",
 	},
 	game = {
 		[9534705677] = "sniper-arena.lua",
