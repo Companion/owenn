@@ -20,6 +20,7 @@ local registry = {
 		[101272402522756]  = "bbq-battles.lua",
 		[109509628648368]  = "merge-vs-mobs.lua",
 		[73814003954154]   = "pickaxe-tycoon.lua",
+		[93794424681636]   = "my-baddie-restaurant.lua",
 	},
 	game = {
 		[9534705677] = "sniper-arena.lua",
