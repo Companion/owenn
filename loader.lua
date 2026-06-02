@@ -2,7 +2,7 @@ local owenn = loadstring(game:HttpGet("https://raw.githubusercontent.com/Compani
 
 local ui = owenn:window("Loader", 380, 220, {
 	keys = { "owennwtf" },
-	discord = "https://discord.gg/h9RjQVZxJx",
+	discord = "https://discord.gg/owen",
 	skipLoader = true,
 })
 ui.hide()
