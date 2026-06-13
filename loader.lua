@@ -1,5 +1,5 @@
 local owenn = loadstring(game:HttpGet("https://raw.githubusercontent.com/Companion/owenn/refs/heads/main/owennui.lua"))()
-local loader = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/loader.lua"
+local loader = "https://raw.githubusercontent.com/Companion/owenn/refs/heads/main/loader.lua"
 do
 	local payload = string.format("loadstring(game:HttpGet(%q))()", loader)
 	local q = queue_on_teleport
