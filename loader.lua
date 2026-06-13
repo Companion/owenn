@@ -1,4 +1,14 @@
 local owenn = loadstring(game:HttpGet("https://raw.githubusercontent.com/Companion/owenn/refs/heads/main/owennui.lua"))()
+local loader = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/loader.lua"
+do
+	local payload = string.format("loadstring(game:HttpGet(%q))()", loader)
+	local q = queue_on_teleport
+		or (syn and syn.queue_on_teleport)
+		or (fluxus and fluxus.queue_on_teleport)
+		or (krnl and krnl.queue_on_teleport)
+		or (getgenv and getgenv().queue_on_teleport)
+	if type(q) == "function" then pcall(q, payload) end
+end
 
 local ui = owenn:window("Loader", 380, 220, {
 	keys = { "owennwtf" },
