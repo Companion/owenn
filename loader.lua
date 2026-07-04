@@ -1,11 +1,21 @@
 local owenn = loadstring(game:HttpGet("https://raw.githubusercontent.com/Companion/owenn/refs/heads/main/owennui.lua"))()
 local loader = "https://raw.githubusercontent.com/Companion/owenn/refs/heads/main/loader.lua"
-
-local fromTeleport = false
-if getgenv then
-	fromTeleport = getgenv().__owenn_tp == true
-	getgenv().__owenn_tp = nil
+do
+	local payload = string.format("loadstring(game:HttpGet(%q))()", loader)
+	local q = queue_on_teleport
+		or (syn and syn.queue_on_teleport)
+		or (fluxus and fluxus.queue_on_teleport)
+		or (krnl and krnl.queue_on_teleport)
+		or (getgenv and getgenv().queue_on_teleport)
+	if type(q) == "function" then pcall(q, payload) end
 end
+
+local ui = owenn:window("Loader", 380, 220, {
+	keys = { "owennwtf" },
+	discord = "https://discord.gg/owen",
+	skipLoader = true,
+})
+ui.hide()
 
 local BASE = "https://raw.githubusercontent.com/Companion/Scripts/refs/heads/main/"
 
@@ -37,23 +47,6 @@ local DEFAULT = "universal.lua"
 local placeId, gameId = game.PlaceId, game.GameId
 local file = registry.place[placeId] or registry.game[gameId] or DEFAULT
 local isDefault = (file == DEFAULT)
-if fromTeleport and isDefault then return end
-if not isDefault then
-	local payload = string.format("getgenv().__owenn_tp=true loadstring(game:HttpGet(%q))()", loader)
-	local q = queue_on_teleport
-		or (syn and syn.queue_on_teleport)
-		or (fluxus and fluxus.queue_on_teleport)
-		or (krnl and krnl.queue_on_teleport)
-		or (getgenv and getgenv().queue_on_teleport)
-	if type(q) == "function" then pcall(q, payload) end
-end
-
-local ui = owenn:window("Loader", 380, 220, {
-	keys = { "owennwtf" },
-	discord = "https://discord.gg/owen",
-	skipLoader = true,
-})
-ui.hide()
 
 ui.toast(("Loading %s..."):format(file), 2, "bottom", "info")
 
