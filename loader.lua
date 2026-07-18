@@ -35,6 +35,7 @@ local registry = {
 		[93833944515093]   = "between-colors.lua",
 		[93404836354142]   = "phonk-clicker.lua",
 		[112490729816320]  = "spin-a-soccer-card.lua",
+		[18667984660]      = "FLEX-Fps.lua",
 	},
 	game = {
 		[9534705677] = "sniper-arena.lua",
