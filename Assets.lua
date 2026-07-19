@@ -1,4 +1,4 @@
-assets = false
+assets = true
 
 Assets = {
 	842704351,
