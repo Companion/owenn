@@ -1,6 +1,6 @@
-assets = true
+assets = false
+assetimage = false
 
 Assets = {
 	842704351,
-	1181598790,
 }
