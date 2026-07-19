@@ -1,5 +1,5 @@
 assets = false
-assetimage = false
+assetimage = true
 
 Assets = {
 	842704351,
